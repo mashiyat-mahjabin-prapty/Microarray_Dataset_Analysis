@@ -19,8 +19,12 @@ from sklearn.model_selection import cross_validate
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 import os
+import sys
 
-os.chdir('F:\Thesis\MicroArray dataset\Multiclass\SRBCT\RFECV')
+folder_name = sys.argv[1]
+
+# change the directory to the directory where the data is stored
+os.chdir('F:\Thesis\MicroArray dataset\Multiclass\\' + folder_name + '\\results')
 
 accuracies_lr = []
 baccuracies_lr = []
@@ -65,7 +69,7 @@ mccs_stacking = []
 # let selected features be a matrix
 selected_features = []
 # read data
-df = pd.read_csv('F:\Thesis\MicroArray dataset\Multiclass\SRBCT\SRBCT.csv')
+df = pd.read_csv('F:\Thesis\MicroArray dataset\Multiclass\\' + folder_name + '\\' + folder_name + '.csv')
 
 le = LabelEncoder()
 df['CLASS'] = le.fit_transform(df['CLASS'])
