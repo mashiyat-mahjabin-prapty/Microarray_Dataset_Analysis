@@ -1,0 +1,12 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-4.346541622691352,GO:0008152,metabolic process,M1,1,GO:0072521 purine-containing compound metabolic process
+1,-4.225939540232427,GO:0009987,cellular process,M1,1,GO:0051262 protein tetramerization
+1,-4.158955148054708,GO:0065007,biological regulation,M1,1,GO:0010817 regulation of hormone levels
+1,-4.018681212357577,GO:0032502,developmental process,M1,1,GO:0002065 columnar/cuboidal epithelial cell differentiation
+1,-4.016876877529356,GO:0048519,negative regulation of biological process,M1,1,GO:0001933 negative regulation of protein phosphorylation
+1,-3.9718066580854052,GO:0022414,reproductive process,M1,1,GO:0046660 female sex differentiation
+1,-3.488033764145605,GO:0050789,regulation of biological process,M1,1,GO:0050678 regulation of epithelial cell proliferation
+1,-3.444191634362261,GO:0032501,multicellular organismal process,M1,1,GO:0008015 blood circulation
+1,-3.1176628495406327,GO:0048518,positive regulation of biological process,M1,1,GO:0050679 positive regulation of epithelial cell proliferation
+1,-2.780604286017807,GO:0051179,localization,M1,1,GO:0098662 inorganic cation transmembrane transport
+1,-2.4350957198598966,GO:0050896,response to stimulus,M1,1,GO:0009725 response to hormone

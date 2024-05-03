@@ -1,0 +1,55 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+Oncogenic Signatures,4,M2660,CSR LATE UP.V1 UP,,-4.9,28,10,30286,166,26,4,15,7.1,1503|4502|4522|4605,CTPS1|MT2A|MTHFD1|MYBL2,-0.7,MyList
+Hallmark Gene Sets,23,M5925,HALLMARK E2F TARGETS,,-4.6,23,9.3,30286,200,26,4,15,7.1,1503|4605|9837|11004,CTPS1|MYBL2|GINS1|KIF2C,-0.7,MyList
+GO Biological Processes,19,GO:0005975,carbohydrate metabolic process,19_GO:0008152 metabolic process,-4.5,13,7.6,30286,435,26,5,19,7.7,1117|2760|3418|5973|9446,CHI3L2|GM2A|IDH2|RENBP|GSTO1,-0.7,MyList
+GO Biological Processes,19,GO:1903047,mitotic cell cycle process,19_GO:0009987 cellular process,-4.2,12,7,30286,505,26,5,19,7.7,901|4605|9837|9928|11004,CCNG2|MYBL2|GINS1|KIF14|KIF2C,-0.52,MyList
+GO Biological Processes,19,GO:0050852,T cell receptor signaling pathway,19_GO:0002376 immune system process,-3.9,31,9.3,30286,113,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,-0.38,MyList
+GO Biological Processes,19,GO:0000278,mitotic cell cycle,19_GO:0009987 cellular process,-3.9,9.9,6.4,30286,588,26,5,19,7.7,901|4605|9837|9928|11004,CCNG2|MYBL2|GINS1|KIF14|KIF2C,-0.38,MyList
+WikiPathways,27,WP4630,Measles virus infection,,-3.7,26,8.5,30286,136,26,3,12,6.3,916|3561|5610,CD3E|IL2RG|EIF2AK2,-0.31,MyList
+KEGG Pathway,24,hsa05162,Measles,,-3.7,25,8.4,30286,138,26,3,12,6.3,916|3561|5610,CD3E|IL2RG|EIF2AK2,-0.31,MyList
+GO Biological Processes,19,GO:0000070,mitotic sister chromatid segregation,19_GO:0009987 cellular process,-3.6,25,8.3,30286,140,26,3,12,6.3,4605|9928|11004,MYBL2|KIF14|KIF2C,-0.31,MyList
+GO Biological Processes,19,GO:0000819,sister chromatid segregation,19_GO:0009987 cellular process,-3.6,24,8.2,30286,144,26,3,12,6.3,4605|9928|11004,MYBL2|KIF14|KIF2C,-0.31,MyList
+GO Biological Processes,19,GO:0050851,antigen receptor-mediated signaling pathway,19_GO:0002376 immune system process,-3.5,22,7.8,30286,159,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,-0.22,MyList
+GO Biological Processes,19,GO:0140014,mitotic nuclear division,19_GO:0009987 cellular process,-3.4,21,7.6,30286,166,26,3,12,6.3,4605|9928|11004,MYBL2|KIF14|KIF2C,-0.2,MyList
+Oncogenic Signatures,4,M2641,GCNP SHH UP LATE.V1 UP,,-3.3,19,7.2,30286,181,26,3,12,6.3,2030|3418|11004,SLC29A1|IDH2|KIF2C,-0.16,MyList
+GO Biological Processes,19,GO:0019752,carboxylic acid metabolic process,19_GO:0008152 metabolic process,-3.3,7.4,5.3,30286,789,26,5,19,7.7,1503|3418|4522|5973|9446,CTPS1|IDH2|MTHFD1|RENBP|GSTO1,-0.16,MyList
+Oncogenic Signatures,4,M2812,RPS14 DN.V1 DN,,-3.3,19,7.1,30286,186,26,3,12,6.3,2030|4605|11004,SLC29A1|MYBL2|KIF2C,-0.16,MyList
+Hallmark Gene Sets,23,M5901,HALLMARK G2M CHECKPOINT,,-3.2,17,6.9,30286,200,26,3,12,6.3,4502|4605|11004,MT2A|MYBL2|KIF2C,-0.14,MyList
+Hallmark Gene Sets,23,M5930,HALLMARK EPITHELIAL MESENCHYMAL TRANSITION,,-3.2,17,6.9,30286,200,26,3,12,6.3,2014|6303|11010,EMP3|SAT1|GLIPR1,-0.14,MyList
+Hallmark Gene Sets,23,M5934,HALLMARK XENOBIOTIC METABOLISM,,-3.2,17,6.9,30286,200,26,3,12,6.3,4502|4522|9446,MT2A|MTHFD1|GSTO1,-0.14,MyList
+GO Biological Processes,19,GO:0051276,chromosome organization,19_GO:0009987 cellular process,-3.1,9.5,5.6,30286,489,26,4,15,7.1,4605|9837|9928|11004,MYBL2|GINS1|KIF14|KIF2C,-0.11,MyList
+GO Biological Processes,19,GO:1901136,carbohydrate derivative catabolic process,19_GO:0008152 metabolic process,-3,16,6.5,30286,222,26,3,12,6.3,1117|2760|5973,CHI3L2|GM2A|RENBP,-0.058,MyList
+GO Biological Processes,19,GO:0098813,nuclear chromosome segregation,19_GO:0009987 cellular process,-3,15,6.3,30286,233,26,3,12,6.3,4605|9928|11004,MYBL2|KIF14|KIF2C,-0.019,MyList
+GO Biological Processes,19,GO:0002429,immune response-activating cell surface receptor signaling pathway,19_GO:0002376 immune system process,-2.9,14,6.1,30286,248,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,0,MyList
+GO Biological Processes,19,GO:0002768,immune response-regulating cell surface receptor signaling pathway,19_GO:0002376 immune system process,-2.8,13,5.7,30286,279,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,0,MyList
+Oncogenic Signatures,4,M2864,TBK1.DF DN,,-2.7,12,5.6,30286,285,26,3,12,6.3,901|9928|22936,CCNG2|KIF14|ELL2,0,MyList
+Oncogenic Signatures,4,M2867,TBK1.DF UP,,-2.7,12,5.6,30286,287,26,3,12,6.3,2014|9638|9837,EMP3|FEZ1|GINS1,0,MyList
+GO Biological Processes,19,GO:0042110,T cell activation,19_GO:0002376 immune system process,-2.6,11,5.2,30286,318,26,3,12,6.3,916|1503|3561,CD3E|CTPS1|IL2RG,0,MyList
+GO Biological Processes,19,GO:0002757,immune response-activating signaling pathway,19_GO:0002376 immune system process,-2.6,11,5.2,30286,319,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,0,MyList
+GO Biological Processes,19,GO:0000280,nuclear division,19_GO:0009987 cellular process,-2.6,11,5.2,30286,320,26,3,12,6.3,4605|9928|11004,MYBL2|KIF14|KIF2C,0,MyList
+GO Biological Processes,19,GO:0007059,chromosome segregation,19_GO:0009987 cellular process,-2.6,11,5.1,30286,331,26,3,12,6.3,4605|9928|11004,MYBL2|KIF14|KIF2C,0,MyList
+GO Biological Processes,19,GO:0008283,cell population proliferation,19_GO:0009987 cellular process,-2.5,6.6,4.4,30286,710,26,4,15,7.1,916|1503|9837|9928,CD3E|CTPS1|GINS1|KIF14,0,MyList
+GO Biological Processes,19,GO:0048285,organelle fission,19_GO:0009987 cellular process,-2.5,10,5,30286,346,26,3,12,6.3,4605|9928|11004,MYBL2|KIF14|KIF2C,0,MyList
+GO Biological Processes,19,GO:0002764,immune response-regulating signaling pathway,19_GO:0002376 immune system process,-2.5,9.9,4.9,30286,352,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,0,MyList
+Reactome Gene Sets,6,R-HSA-1280218,Adaptive Immune System,,-2.4,6.1,4.2,30286,768,26,4,15,7.1,916|11004|11118|11120,CD3E|KIF2C|BTN3A2|BTN2A1,0,MyList
+GO Biological Processes,19,GO:0002253,activation of immune response,19_GO:0002376 immune system process,-2.4,9.1,4.7,30286,385,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,0,MyList
+Reactome Gene Sets,6,R-HSA-1280215,Cytokine Signaling in Immune system,,-2.4,5.9,4.1,30286,786,26,4,15,7.1,3561|4502|5610|9446,IL2RG|MT2A|EIF2AK2|GSTO1,0,MyList
+GO Biological Processes,19,GO:0051656,establishment of organelle localization,19_GO:0051179 localization,-2.3,8.5,4.5,30286,410,26,3,12,6.3,9638|9928|11004,FEZ1|KIF14|KIF2C,0,MyList
+GO Biological Processes,19,GO:0009410,response to xenobiotic stimulus,19_GO:0050896 response to stimulus,-2.2,8.2,4.4,30286,428,26,3,12,6.3,1503|2030|9446,CTPS1|SLC29A1|GSTO1,0,MyList
+GO Biological Processes,19,GO:0046649,lymphocyte activation,19_GO:0002376 immune system process,-2.1,7.3,4.1,30286,478,26,3,12,6.3,916|1503|3561,CD3E|CTPS1|IL2RG,0,MyList
+GO Biological Processes,19,GO:0001819,positive regulation of cytokine production,19_GO:0048518 positive regulation of biological process,-2.1,7,4,30286,500,26,3,12,6.3,916|5610|11118,CD3E|EIF2AK2|BTN3A2,0,MyList
+GO Biological Processes,19,GO:0051301,cell division,19_GO:0009987 cellular process,-2,6.8,3.9,30286,517,26,3,12,6.3,901|9928|11004,CCNG2|KIF14|KIF2C,0,MyList
+GO Biological Processes,19,GO:0009117,nucleotide metabolic process,19_GO:0008152 metabolic process,-2,6.7,3.8,30286,524,26,3,12,6.3,1503|3418|4522,CTPS1|IDH2|MTHFD1,0,MyList
+GO Biological Processes,19,GO:0006753,nucleoside phosphate metabolic process,19_GO:0008152 metabolic process,-2,6.6,3.8,30286,532,26,3,12,6.3,1503|3418|4522,CTPS1|IDH2|MTHFD1,0,MyList
+GO Biological Processes,19,GO:0051640,organelle localization,19_GO:0051179 localization,-2,6.4,3.8,30286,542,26,3,12,6.3,9638|9928|11004,FEZ1|KIF14|KIF2C,0,MyList
+Reactome Gene Sets,6,R-HSA-69278,"Cell Cycle, Mitotic",,-1.9,6.2,3.7,30286,561,26,3,12,6.3,4605|9837|11004,MYBL2|GINS1|KIF2C,0,MyList
+GO Biological Processes,19,GO:0055086,nucleobase-containing small molecule metabolic process,19_GO:0008152 metabolic process,-1.8,5.8,3.5,30286,599,26,3,12,6.3,1503|3418|4522,CTPS1|IDH2|MTHFD1,0,MyList
+GO Biological Processes,19,GO:0045321,leukocyte activation,19_GO:0002376 immune system process,-1.8,5.8,3.5,30286,601,26,3,12,6.3,916|1503|3561,CD3E|CTPS1|IL2RG,0,MyList
+GO Biological Processes,19,GO:0043009,chordate embryonic development,19_GO:0032502 developmental process,-1.8,5.4,3.3,30286,650,26,3,12,6.3,4522|9837|10443,MTHFD1|GINS1|N4BP2L2,0,MyList
+GO Biological Processes,19,GO:0050778,positive regulation of immune response,19_GO:0002376 immune system process,-1.7,5.3,3.3,30286,654,26,3,12,6.3,916|11118|11120,CD3E|BTN3A2|BTN2A1,0,MyList
+GO Biological Processes,19,GO:0009792,embryo development ending in birth or egg hatching,19_GO:0032502 developmental process,-1.7,5.2,3.2,30286,671,26,3,12,6.3,4522|9837|10443,MTHFD1|GINS1|N4BP2L2,0,MyList
+Reactome Gene Sets,6,R-HSA-1640170,Cell Cycle,,-1.7,5,3.2,30286,692,26,3,12,6.3,4605|9837|11004,MYBL2|GINS1|KIF2C,0,MyList
+GO Biological Processes,19,GO:0001775,cell activation,19_GO:0032501 multicellular organismal process,-1.6,4.8,3,30286,726,26,3,12,6.3,916|1503|3561,CD3E|CTPS1|IL2RG,0,MyList
+GO Biological Processes,19,GO:0007420,brain development,19_GO:0032502 developmental process,-1.6,4.8,3,30286,729,26,3,12,6.3,916|9638|9928,CD3E|FEZ1|KIF14,0,MyList
+GO Biological Processes,19,GO:0071345,cellular response to cytokine stimulus,19_GO:0050896 response to stimulus,-1.6,4.7,3,30286,738,26,3,12,6.3,3561|4502|4605,IL2RG|MT2A|MYBL2,0,MyList
+GO Biological Processes,19,GO:0060322,head development,19_GO:0032502 developmental process,-1.5,4.5,2.9,30286,778,26,3,12,6.3,916|9638|9928,CD3E|FEZ1|KIF14,0,MyList

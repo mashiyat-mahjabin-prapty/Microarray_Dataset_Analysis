@@ -1,0 +1,7 @@
+Name,Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value)
+MyList,Reactome Gene Sets,6,R-HSA-1852241,Organelle biogenesis and maintenance,,-4.1,34,9.9,30286,296,9,3,33,16,517|521|7280,ATP5MC2|ATP5ME|TUBB2A,-0.1
+MyList,KEGG Pathway,24,hsa05016,Huntington disease,,-4.1,33,9.7,30286,306,9,3,33,16,517|7052|7280,ATP5MC2|TGM2|TUBB2A,-0.1
+MyList,GO Biological Processes,19,GO:0098662,inorganic cation transmembrane transport,19_GO:0051179 localization,-3.2,16,6.6,30286,630,9,3,33,16,517|521|2823,ATP5MC2|ATP5ME|GPM6A,0
+MyList,GO Biological Processes,19,GO:0098655,monoatomic cation transmembrane transport,19_GO:0051179 localization,-3.1,16,6.5,30286,646,9,3,33,16,517|521|2823,ATP5MC2|ATP5ME|GPM6A,0
+MyList,GO Biological Processes,19,GO:0098660,inorganic ion transmembrane transport,19_GO:0051179 localization,-3,14,6.1,30286,726,9,3,33,16,517|521|2823,ATP5MC2|ATP5ME|GPM6A,0
+MyList,GO Biological Processes,19,GO:0006812,monoatomic cation transport,19_GO:0051179 localization,-2.9,13,5.8,30286,780,9,3,33,16,517|521|2823,ATP5MC2|ATP5ME|GPM6A,0

@@ -211,7 +211,7 @@ for i in random_states:
 
     results.close()
 
-joblib.dump(clf, 'best_model_lr.pkl')
+joblib.dump(best_model, 'best_model_lr.pkl')
 
 outfile = open('results.txt', 'w')
 # write the random states

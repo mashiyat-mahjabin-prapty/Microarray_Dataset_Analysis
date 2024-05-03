@@ -1,0 +1,51 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-2.9,GO:0016071,mRNA metabolic process,M1,1,0
+1,-3.3,M5909,HALLMARK MYOGENESIS,M1,1,0
+1,-3.5,GO:0000302,response to reactive oxygen species,M1,1,0
+1,-2.9,GO:0062197,cellular response to chemical stress,M1,1,0
+1,-2.8,GO:0104004,cellular response to environmental stimulus,M1,1,0
+1,-7.2,R-HSA-5661231,Metallothioneins bind metals,M1,1,0
+1,-6.1,GO:0071294,cellular response to zinc ion,M1,1,0
+1,-2.9,GO:0000398,"mRNA splicing, via spliceosome",M1,1,0
+1,-2,GO:0055082,intracellular chemical homeostasis,M1,1,0
+1,-5.5,GO:0098754,detoxification,M1,1,0
+1,-3.3,GO:0071248,cellular response to metal ion,M1,1,0
+1,-5.1,WP3286,Copper homeostasis,M1,1,0
+1,-4.2,GO:0042542,response to hydrogen peroxide,M1,1,0
+1,-5.7,GO:0010035,response to inorganic substance,M1,1,0
+1,-2.4,GO:0098771,inorganic ion homeostasis,M1,1,0
+1,-3.8,GO:0010038,response to metal ion,M1,1,0
+1,-6,GO:0071280,cellular response to copper ion,M1,1,0
+1,-2.2,GO:0022613,ribonucleoprotein complex biogenesis,M1,1,0
+1,-5.5,WP3529,Zinc homeostasis,M1,1,0
+1,-3.6,M2660,CSR LATE UP.V1 UP,M1,1,0
+1,-2.4,GO:0006873,intracellular monoatomic ion homeostasis,M1,1,0
+1,-5.5,GO:0046688,response to copper ion,M1,1,0
+1,-6.4,M5926,HALLMARK MYC TARGETS V1,M1,1,0
+1,-2.4,GO:0030003,intracellular monoatomic cation homeostasis,M1,1,0
+1,-6.9,GO:0046686,response to cadmium ion,M1,1,0
+1,-3.9,WP411,mRNA processing,M1,1,0
+1,-6,GO:0045926,negative regulation of growth,M1,1,0
+1,-6.9,R-HSA-5660526,Response to metal ions,M1,1,0
+1,-3.3,GO:0006397,mRNA processing,M1,1,0
+1,-4.1,GO:0040008,regulation of growth,M1,1,0
+1,-6.7,GO:1990169,stress response to copper ion,M1,1,0
+1,-2.9,GO:0000377,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile",M1,1,0
+1,-2.8,GO:0071214,cellular response to abiotic stimulus,M1,1,0
+1,-2.2,GO:0050801,monoatomic ion homeostasis,M1,1,0
+1,-2.8,GO:0019725,cellular homeostasis,M1,1,0
+1,-6.3,GO:0097501,stress response to metal ion,M1,1,0
+1,-5.5,GO:0071276,cellular response to cadmium ion,M1,1,0
+1,-4.5,GO:0009636,response to toxic substance,M1,1,0
+1,-5.6,GO:0006882,intracellular zinc ion homeostasis,M1,1,0
+1,-5.1,GO:0010043,response to zinc ion,M1,1,0
+1,-6.7,GO:0010273,detoxification of copper ion,M1,1,0
+1,-3.8,GO:0006979,response to oxidative stress,M1,1,0
+1,-4.9,hsa04978,Mineral absorption,M1,1,0
+1,-6.2,GO:0061687,detoxification of inorganic compound,M1,1,0
+1,-2.9,GO:0000375,"RNA splicing, via transesterification reactions",M1,1,0
+1,-3.2,GO:0071241,cellular response to inorganic substance,M1,1,0
+1,-2.2,GO:0055080,monoatomic cation homeostasis,M1,1,0
+1,-3.7,R-HSA-8953854,Metabolism of RNA,M1,1,0
+1,-2,GO:1902532,negative regulation of intracellular signal transduction,M1,1,0
+1,-3.6,GO:0008380,RNA splicing,M1,1,0

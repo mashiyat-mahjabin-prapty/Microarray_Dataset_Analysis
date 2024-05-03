@@ -2,37 +2,22 @@
 
 import pandas as pd
 
-# read the text file and input the data into a dataframe
-df = pd.read_csv('F:\Thesis\Shamima apu\AFFY HuGeneFL probe_gene symbol.txt', sep='\t')
+data = pd.read_csv('F:\Thesis\Binary\ColonTumor\\raw data\data.txt', sep = ' ', header=None)
+print(data.head())
 
-# print the first 5 rows of the dataframe
-print(df.head())
+data = data.T
+print(data.head())
 
-#input the arff file from whose data will be extracted
-from scipy.io import arff
-
-data = arff.loadarff('F:\Thesis\Shamima apu\Colon Tumor\Colon.arff')
-df2 = pd.DataFrame(data[0])
-
-print(df2.head())
-
-print(df2.columns)
-
-# Create a new dataframe with the column names of the arff file and the corresponding gene name from df
-df3_data = []
-
-# Iterate through the rows of df2 and df, and if the gene name matches, add the gene symbol to the new dataframe
-for i in range(len(df2.columns)):
-    gene_name = df2.columns[i].strip()
-    matching_rows = df[df['AFFY HuGeneFL probe'].str.strip() == gene_name]
-
-    if not matching_rows.empty:
-        gene_symbol = matching_rows.iloc[0]['Gene name']
-        df3_data.append({'AFFY gene name': gene_name, 'gene symbol': gene_symbol})
+# for the last column replace negative numbers with 1 and positive numbers with 0
+for i in range(len(data[2000])):
+    if data[2000][i] < 0:
+        data[2000][i] = 1
     else:
-        df3_data.append({'AFFY gene name': gene_name, 'gene symbol': 'NA'})
+        data[2000][i] = 0
 
-df3_data = pd.DataFrame(df3_data)
+print(data.head())
 
-# write df3 to a csv file
-df3_data.to_csv('F:\Thesis\Shamima apu\Colon Tumor\Colon_CNS_gene_symbol.csv', index=False)
+# find any missing values
+print(data.isnull().sum())
+
+data.to_csv('F:\Thesis\Binary\ColonTumor\\ColonTumor.csv', index=False)

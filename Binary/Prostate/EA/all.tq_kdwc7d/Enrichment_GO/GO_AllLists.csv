@@ -1,0 +1,76 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+Oncogenic Signatures,4,M2905,LEF1 UP.V1 UP,,-4.7,25,9.6,30286,194,25,4,16,7.3,4753|5730|5947|7052,NELL2|PTGDS|RBP1|TGM2,-0.58,MyList
+GO Biological Processes,19,GO:0072521,purine-containing compound metabolic process,19_GO:0008152 metabolic process,-4.3,12,7.3,30286,492,25,5,20,8,517|521|4199|23171|27232,ATP5MC2|ATP5ME|ME1|GPD1L|GNMT,-0.58,MyList
+GO Biological Processes,19,GO:0051262,protein tetramerization,19_GO:0009987 cellular process,-4.2,40,11,30286,92,25,3,12,6.5,4199|8626|27232,ME1|TP63|GNMT,-0.58,MyList
+GO Biological Processes,19,GO:0010817,regulation of hormone levels,19_GO:0065007 biological regulation,-4.2,11,6.9,30286,539,25,5,20,8,3249|5947|6690|7941|25976,HPN|RBP1|SPINK1|PLA2G7|TIPARP,-0.58,MyList
+GO Biological Processes,19,GO:0002065,columnar/cuboidal epithelial cell differentiation,19_GO:0032502 developmental process,-4,34,9.8,30286,108,25,3,12,6.5,4852|8626|10551,NPY|TP63|AGR2,-0.58,MyList
+GO Biological Processes,19,GO:0001933,negative regulation of protein phosphorylation,19_GO:0048519 negative regulation of biological process,-4,16,7.6,30286,296,25,4,16,7.3,6690|7026|22933|23171,SPINK1|NR2F2|SIRT2|GPD1L,-0.58,MyList
+GO Biological Processes,19,GO:0046660,female sex differentiation,19_GO:0022414 reproductive process,-4,32,9.6,30286,112,25,3,12,6.5,7026|8626|25976,NR2F2|TP63|TIPARP,-0.58,MyList
+GO Biological Processes,19,GO:0055086,nucleobase-containing small molecule metabolic process,19_GO:0008152 metabolic process,-3.9,10,6.5,30286,599,25,5,20,8,517|521|4199|23171|27232,ATP5MC2|ATP5ME|ME1|GPD1L|GNMT,-0.58,MyList
+GO Biological Processes,19,GO:0042326,negative regulation of phosphorylation,19_GO:0048519 negative regulation of biological process,-3.9,15,7.4,30286,316,25,4,16,7.3,6690|7026|22933|23171,SPINK1|NR2F2|SIRT2|GPD1L,-0.58,MyList
+GO Biological Processes,19,GO:0048565,digestive tract development,19_GO:0032502 developmental process,-3.8,28,8.8,30286,131,25,3,12,6.5,4852|8626|10551,NPY|TP63|AGR2,-0.5,MyList
+GO Biological Processes,19,GO:0035239,tube morphogenesis,19_GO:0032502 developmental process,-3.7,8.9,6,30286,682,25,5,20,8,7026|7052|8626|10551|25976,NR2F2|TGM2|TP63|AGR2|TIPARP,-0.5,MyList
+Oncogenic Signatures,4,M2900,KRAS.LUNG.BREAST UP.V1 UP,,-3.7,26,8.5,30286,141,25,3,12,6.5,3249|4753|6690,HPN|NELL2|SPINK1,-0.5,MyList
+GO Biological Processes,19,GO:0055123,digestive system development,19_GO:0032502 developmental process,-3.7,25,8.4,30286,143,25,3,12,6.5,4852|8626|10551,NPY|TP63|AGR2,-0.5,MyList
+GO Biological Processes,19,GO:0045936,negative regulation of phosphate metabolic process,19_GO:0048519 negative regulation of biological process,-3.6,13,6.6,30286,378,25,4,16,7.3,6690|7026|22933|23171,SPINK1|NR2F2|SIRT2|GPD1L,-0.5,MyList
+GO Biological Processes,19,GO:0010563,negative regulation of phosphorus metabolic process,19_GO:0048519 negative regulation of biological process,-3.6,13,6.6,30286,379,25,4,16,7.3,6690|7026|22933|23171,SPINK1|NR2F2|SIRT2|GPD1L,-0.5,MyList
+GO Biological Processes,19,GO:0050678,regulation of epithelial cell proliferation,19_GO:0050789 regulation of biological process,-3.5,12,6.4,30286,407,25,4,16,7.3,3249|6690|7026|8626,HPN|SPINK1|NR2F2|TP63,-0.43,MyList
+GO Biological Processes,19,GO:0072330,monocarboxylic acid biosynthetic process,19_GO:0008152 metabolic process,-3.5,22,7.7,30286,167,25,3,12,6.5,5730|5947|23600,PTGDS|RBP1|AMACR,-0.43,MyList
+GO Biological Processes,19,GO:0008015,blood circulation,19_GO:0032501 multicellular organismal process,-3.4,12,6.3,30286,418,25,4,16,7.3,4852|7026|23171|83988,NPY|NR2F2|GPD1L|NCALD,-0.43,MyList
+GO Biological Processes,19,GO:0060322,head development,19_GO:0032502 developmental process,-3.4,7.8,5.5,30286,778,25,5,20,8,4852|7026|7280|22933|25976,NPY|NR2F2|TUBB2A|SIRT2|TIPARP,-0.43,MyList
+GO Biological Processes,19,GO:0031400,negative regulation of protein modification process,19_GO:0048519 negative regulation of biological process,-3.4,11,6.2,30286,426,25,4,16,7.3,6690|7026|22933|23171,SPINK1|NR2F2|SIRT2|GPD1L,-0.43,MyList
+GO Biological Processes,19,GO:0019752,carboxylic acid metabolic process,19_GO:0008152 metabolic process,-3.4,7.7,5.5,30286,789,25,5,20,8,4199|5730|5947|23600|27232,ME1|PTGDS|RBP1|AMACR|GNMT,-0.43,MyList
+GO Biological Processes,19,GO:0008217,regulation of blood pressure,19_GO:0032501 multicellular organismal process,-3.3,19,7.3,30286,187,25,3,12,6.5,4852|7026|83988,NPY|NR2F2|NCALD,-0.37,MyList
+GO Biological Processes,19,GO:0006163,purine nucleotide metabolic process,19_GO:0008152 metabolic process,-3.3,10,5.9,30286,463,25,4,16,7.3,517|521|4199|23171,ATP5MC2|ATP5ME|ME1|GPD1L,-0.36,MyList
+Oncogenic Signatures,4,M2698,P53 DN.V1 UP,,-3.3,19,7.1,30286,194,25,3,12,6.5,5947|7026|10551,RBP1|NR2F2|AGR2,-0.36,MyList
+GO Biological Processes,19,GO:0044242,cellular lipid catabolic process,19_GO:0008152 metabolic process,-3.3,18,7.1,30286,197,25,3,12,6.5,7941|22933|23600,PLA2G7|SIRT2|AMACR,-0.36,MyList
+GO Biological Processes,19,GO:0042445,hormone metabolic process,19_GO:0008152 metabolic process,-3.2,18,6.9,30286,205,25,3,12,6.5,5947|7941|25976,RBP1|PLA2G7|TIPARP,-0.33,MyList
+GO Biological Processes,19,GO:2000241,regulation of reproductive process,19_GO:0022414 reproductive process,-3.1,17,6.7,30286,214,25,3,12,6.5,5730|6690|22933,PTGDS|SPINK1|SIRT2,-0.31,MyList
+Reactome Gene Sets,6,R-HSA-1428517,Aerobic respiration and respiratory electron transport,,-3.1,17,6.7,30286,215,25,3,12,6.5,517|521|4199,ATP5MC2|ATP5ME|ME1,-0.31,MyList
+GO Biological Processes,19,GO:0003013,circulatory system process,19_GO:0032501 multicellular organismal process,-3.1,9.5,5.6,30286,508,25,4,16,7.3,4852|7026|23171|83988,NPY|NR2F2|GPD1L|NCALD,-0.31,MyList
+GO Biological Processes,19,GO:0050679,positive regulation of epithelial cell proliferation,19_GO:0048518 positive regulation of biological process,-3.1,17,6.7,30286,219,25,3,12,6.5,3249|6690|8626,HPN|SPINK1|TP63,-0.31,MyList
+GO Biological Processes,19,GO:0032787,monocarboxylic acid metabolic process,19_GO:0008152 metabolic process,-3.1,9.3,5.5,30286,520,25,4,16,7.3,4199|5730|5947|23600,ME1|PTGDS|RBP1|AMACR,-0.29,MyList
+GO Biological Processes,19,GO:0009117,nucleotide metabolic process,19_GO:0008152 metabolic process,-3.1,9.2,5.5,30286,524,25,4,16,7.3,517|521|4199|23171,ATP5MC2|ATP5ME|ME1|GPD1L,-0.29,MyList
+GO Biological Processes,19,GO:0006753,nucleoside phosphate metabolic process,19_GO:0008152 metabolic process,-3.1,9.1,5.4,30286,532,25,4,16,7.3,517|521|4199|23171,ATP5MC2|ATP5ME|ME1|GPD1L,-0.28,MyList
+GO Biological Processes,19,GO:0051259,protein complex oligomerization,19_GO:0009987 cellular process,-2.9,14,6.1,30286,254,25,3,12,6.5,4199|8626|27232,ME1|TP63|GNMT,-0.18,MyList
+GO Biological Processes,19,GO:0009165,nucleotide biosynthetic process,19_GO:0008152 metabolic process,-2.9,14,6,30286,264,25,3,12,6.5,517|521|4199,ATP5MC2|ATP5ME|ME1,-0.14,MyList
+GO Biological Processes,19,GO:1901293,nucleoside phosphate biosynthetic process,19_GO:0008152 metabolic process,-2.9,14,6,30286,266,25,3,12,6.5,517|521|4199,ATP5MC2|ATP5ME|ME1,-0.14,MyList
+GO Biological Processes,19,GO:0046394,carboxylic acid biosynthetic process,19_GO:0008152 metabolic process,-2.8,13,5.8,30286,275,25,3,12,6.5,5730|5947|23600,PTGDS|RBP1|AMACR,-0.13,MyList
+GO Biological Processes,19,GO:0016053,organic acid biosynthetic process,19_GO:0008152 metabolic process,-2.8,13,5.8,30286,278,25,3,12,6.5,5730|5947|23600,PTGDS|RBP1|AMACR,-0.13,MyList
+Oncogenic Signatures,4,M2882,KRAS.600 UP.V1 UP,,-2.8,13,5.8,30286,278,25,3,12,6.5,3249|6690|7052,HPN|SPINK1|TGM2,-0.13,MyList
+Oncogenic Signatures,4,M2886,KRAS.600.LUNG.BREAST UP.V1 UP,,-2.8,13,5.8,30286,279,25,3,12,6.5,3249|4753|6690,HPN|NELL2|SPINK1,-0.13,MyList
+GO Biological Processes,19,GO:0007548,sex differentiation,19_GO:0022414 reproductive process,-2.8,13,5.8,30286,281,25,3,12,6.5,7026|8626|25976,NR2F2|TP63|TIPARP,-0.13,MyList
+GO Biological Processes,19,GO:0098662,inorganic cation transmembrane transport,19_GO:0051179 localization,-2.8,7.7,4.9,30286,630,25,4,16,7.3,517|521|2823|3249,ATP5MC2|ATP5ME|GPM6A|HPN,-0.13,MyList
+GO Biological Processes,19,GO:0030855,epithelial cell differentiation,19_GO:0032502 developmental process,-2.8,7.7,4.9,30286,631,25,4,16,7.3,4852|7026|8626|10551,NPY|NR2F2|TP63|AGR2,-0.13,MyList
+GO Biological Processes,19,GO:0016042,lipid catabolic process,19_GO:0008152 metabolic process,-2.8,12,5.7,30286,291,25,3,12,6.5,7941|22933|23600,PLA2G7|SIRT2|AMACR,-0.12,MyList
+Reactome Gene Sets,6,R-HSA-1852241,Organelle biogenesis and maintenance,,-2.7,12,5.6,30286,296,25,3,12,6.5,517|521|7280,ATP5MC2|ATP5ME|TUBB2A,-0.12,MyList
+GO Biological Processes,19,GO:0098655,monoatomic cation transmembrane transport,19_GO:0051179 localization,-2.7,7.5,4.8,30286,646,25,4,16,7.3,517|521|2823|3249,ATP5MC2|ATP5ME|GPM6A|HPN,-0.12,MyList
+GO Biological Processes,19,GO:0048608,reproductive structure development,19_GO:0022414 reproductive process,-2.7,12,5.6,30286,297,25,3,12,6.5,7026|8626|25976,NR2F2|TP63|TIPARP,-0.12,MyList
+GO Biological Processes,19,GO:0061458,reproductive system development,19_GO:0032502 developmental process,-2.7,12,5.5,30286,301,25,3,12,6.5,7026|8626|25976,NR2F2|TP63|TIPARP,-0.12,MyList
+KEGG Pathway,24,hsa05016,Huntington disease,,-2.7,12,5.5,30286,306,25,3,12,6.5,517|7052|7280,ATP5MC2|TGM2|TUBB2A,-0.1,MyList
+GO Biological Processes,19,GO:0062012,regulation of small molecule metabolic process,19_GO:0008152 metabolic process,-2.6,11,5.2,30286,331,25,3,12,6.5,4199|22933|27232,ME1|SIRT2|GNMT,-0.017,MyList
+GO Biological Processes,19,GO:0045862,positive regulation of proteolysis,19_GO:0048518 positive regulation of biological process,-2.6,11,5.2,30286,336,25,3,12,6.5,3249|22933|23151,HPN|SIRT2|GRAMD4,-0.007,MyList
+GO Biological Processes,19,GO:0098660,inorganic ion transmembrane transport,19_GO:0051179 localization,-2.6,6.7,4.4,30286,726,25,4,16,7.3,517|521|2823|3249,ATP5MC2|ATP5ME|GPM6A|HPN,0,MyList
+GO Biological Processes,19,GO:0007420,brain development,19_GO:0032502 developmental process,-2.6,6.6,4.4,30286,729,25,4,16,7.3,4852|7026|7280|22933,NPY|NR2F2|TUBB2A|SIRT2,0,MyList
+Reactome Gene Sets,6,R-HSA-556833,Metabolism of lipids,,-2.5,6.4,4.3,30286,757,25,4,16,7.3,4199|5730|23171|23600,ME1|PTGDS|GPD1L|AMACR,0,MyList
+GO Biological Processes,19,GO:0006812,monoatomic cation transport,19_GO:0051179 localization,-2.4,6.2,4.2,30286,780,25,4,16,7.3,517|521|2823|3249,ATP5MC2|ATP5ME|GPM6A|HPN,0,MyList
+GO Biological Processes,19,GO:0009725,response to hormone,19_GO:0050896 response to stimulus,-2.4,6.2,4.2,30286,785,25,4,16,7.3,3249|4199|5730|6690,HPN|ME1|PTGDS|SPINK1,0,MyList
+GO Biological Processes,19,GO:0008285,negative regulation of cell population proliferation,19_GO:0048519 negative regulation of biological process,-2.4,6.1,4.2,30286,791,25,4,16,7.3,3249|5730|7026|22933,HPN|PTGDS|NR2F2|SIRT2,0,MyList
+GO Biological Processes,19,GO:0030900,forebrain development,19_GO:0032502 developmental process,-2.4,8.9,4.6,30286,407,25,3,12,6.5,4852|7026|7280,NPY|NR2F2|TUBB2A,0,MyList
+GO Biological Processes,19,GO:0006091,generation of precursor metabolites and energy,19_GO:0008152 metabolic process,-2.3,8.9,4.6,30286,410,25,3,12,6.5,521|4199|27232,ATP5ME|ME1|GNMT,0,MyList
+GO Biological Processes,19,GO:0005975,carbohydrate metabolic process,19_GO:0008152 metabolic process,-2.3,8.4,4.4,30286,435,25,3,12,6.5,4199|23171|27232,ME1|GPD1L|GNMT,0,MyList
+GO Biological Processes,19,GO:0044283,small molecule biosynthetic process,19_GO:0008152 metabolic process,-2.2,7.8,4.3,30286,464,25,3,12,6.5,5730|5947|23600,PTGDS|RBP1|AMACR,0,MyList
+GO Biological Processes,19,GO:0031667,response to nutrient levels,19_GO:0050896 response to stimulus,-2.2,7.6,4.2,30286,479,25,3,12,6.5,4852|6690|22933,NPY|SPINK1|SIRT2,0,MyList
+GO Biological Processes,19,GO:0001501,skeletal system development,19_GO:0032502 developmental process,-2.1,7.3,4.1,30286,501,25,3,12,6.5,7052|8626|25976,TGM2|TP63|TIPARP,0,MyList
+GO Biological Processes,19,GO:0009991,response to extracellular stimulus,19_GO:0050896 response to stimulus,-2.1,7.2,4,30286,508,25,3,12,6.5,4852|6690|22933,NPY|SPINK1|SIRT2,0,MyList
+GO Biological Processes,19,GO:0046903,secretion,19_GO:0051179 localization,-2,6.9,3.9,30286,529,25,3,12,6.5,5730|7052|10551,PTGDS|TGM2|AGR2,0,MyList
+GO Biological Processes,19,GO:0090407,organophosphate biosynthetic process,19_GO:0008152 metabolic process,-2,6.7,3.8,30286,544,25,3,12,6.5,517|521|4199,ATP5MC2|ATP5ME|ME1,0,MyList
+GO Biological Processes,19,GO:0043065,positive regulation of apoptotic process,19_GO:0048518 positive regulation of biological process,-2,6.6,3.8,30286,552,25,3,12,6.5,7052|8626|22933,TGM2|TP63|SIRT2,0,MyList
+GO Biological Processes,19,GO:0032103,positive regulation of response to external stimulus,19_GO:0048518 positive regulation of biological process,-2,6.5,3.8,30286,561,25,3,12,6.5,4852|7941|22933,NPY|PLA2G7|SIRT2,0,MyList
+GO Biological Processes,19,GO:0043068,positive regulation of programmed cell death,19_GO:0048518 positive regulation of biological process,-1.9,6.3,3.7,30286,574,25,3,12,6.5,7052|8626|22933,TGM2|TP63|SIRT2,0,MyList
+GO Biological Processes,19,GO:0008610,lipid biosynthetic process,19_GO:0008152 metabolic process,-1.9,6.1,3.6,30286,593,25,3,12,6.5,5730|5947|23600,PTGDS|RBP1|AMACR,0,MyList
+GO Biological Processes,19,GO:0030162,regulation of proteolysis,19_GO:0008152 metabolic process,-1.9,6.1,3.6,30286,600,25,3,12,6.5,3249|22933|23151,HPN|SIRT2|GRAMD4,0,MyList
+GO Biological Processes,19,GO:0006338,chromatin remodeling,19_GO:0009987 cellular process,-1.8,5.6,3.4,30286,653,25,3,12,6.5,7052|8626|22933,TGM2|TP63|SIRT2,0,MyList
+GO Biological Processes,19,GO:0031175,neuron projection development,19_GO:0032502 developmental process,-1.7,5.3,3.3,30286,691,25,3,12,6.5,2823|4753|4852,GPM6A|NELL2|NPY,0,MyList
+GO Biological Processes,19,GO:0045596,negative regulation of cell differentiation,19_GO:0032502 developmental process,-1.7,4.9,3.1,30286,735,25,3,12,6.5,3249|8626|22933,HPN|TP63|SIRT2,0,MyList
+GO Biological Processes,19,GO:0006325,chromatin organization,19_GO:0009987 cellular process,-1.6,4.6,2.9,30286,797,25,3,12,6.5,7052|8626|22933,TGM2|TP63|SIRT2,0,MyList
