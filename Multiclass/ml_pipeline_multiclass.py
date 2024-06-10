@@ -112,20 +112,15 @@ for i in random_states:
     rfecv = RFECV(estimator=model, cv=cv, scoring='f1_weighted', n_jobs=-1)
     fit = rfecv.fit(X, y)
 
-    # results = open('results_' + str(i) + '.txt', 'w')
-    # results.write('Optimal number of features: %d' % fit.n_features_)
-    # results.write('\n')
-    # results.write('Selected features: %s' % fit.support_)
-    # results.write('\n')
+    results = open('results_' + str(i) + '.txt', 'w')
+    results.write('Optimal number of features: %d' % fit.n_features_)
+    results.write('\n')
+    results.write('Selected features: %s' % fit.support_)
+    results.write('\n')
 
     mask = fit.support_
 
     X_new = X.loc[:, mask]
-
-    # write the X_new to a csv file
-    X_new.to_csv('X_new_' + str(i) + '.csv', index=False)
-
-    break
 
     # write the selected feature names to results
     selected_features.append(X.columns[fit.support_])
@@ -212,7 +207,6 @@ for i in random_states:
 
     results.close()
 
-exit()
 joblib.dump(best_model, 'best_model_lr.pkl')
 
 outfile = open('results.txt', 'w')
