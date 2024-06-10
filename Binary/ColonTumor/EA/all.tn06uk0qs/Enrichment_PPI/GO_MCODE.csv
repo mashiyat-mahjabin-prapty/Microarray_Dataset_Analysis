@@ -1,6 +1,0 @@
-Name,Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value)
-MyList,GO Biological Processes,19,GO:0048469,cell maturation,19_GO:0032502 developmental process,-5.1,71,14,30286,184,7,3,43,19,1738|2056|5925,DLD|EPO|RB1,-0.83
-MyList,GO Biological Processes,19,GO:0071695,anatomical structure maturation,19_GO:0032502 developmental process,-4.8,55,13,30286,234,7,3,43,19,1738|2056|5925,DLD|EPO|RB1,-0.82
-MyList,GO Biological Processes,19,GO:0021700,developmental maturation,19_GO:0032502 developmental process,-4.5,45,11,30286,286,7,3,43,19,1738|2056|5925,DLD|EPO|RB1,-0.73
-MyList,GO Biological Processes,19,GO:0006351,DNA-templated transcription,19_GO:0008152 metabolic process,-3.7,24,8.3,30286,532,7,3,43,19,5430|5925|10208,POLR2A|RB1|USPL1,-0.13
-MyList,GO Biological Processes,19,GO:0032774,RNA biosynthetic process,19_GO:0008152 metabolic process,-3.7,24,8.2,30286,544,7,3,43,19,5430|5925|10208,POLR2A|RB1|USPL1,-0.13
