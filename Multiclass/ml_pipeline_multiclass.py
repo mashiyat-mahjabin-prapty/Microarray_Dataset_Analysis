@@ -24,7 +24,7 @@ import sys
 folder_name = sys.argv[1]
 
 # change the directory to the directory where the data is stored
-os.chdir('F:\Thesis\MicroArray dataset\Multiclass\\' + folder_name + '\\results')
+os.chdir('F:\Thesis\Multiclass\\' + folder_name + '\\results')
 
 accuracies_lr = []
 baccuracies_lr = []
@@ -69,7 +69,7 @@ mccs_stacking = []
 # let selected features be a matrix
 selected_features = []
 # read data
-df = pd.read_csv('F:\Thesis\MicroArray dataset\Multiclass\\' + folder_name + '\\' + folder_name + '.csv')
+df = pd.read_csv('F:\Thesis\Multiclass\\' + folder_name + '\\' + folder_name + '.csv')
 
 le = LabelEncoder()
 df['CLASS'] = le.fit_transform(df['CLASS'])
@@ -99,7 +99,8 @@ importance = importance.head(int(X.shape[1]*0.1))
 X = X[importance.index]
 
 np.random.seed(42)
-random_states = [np.random.randint(1000) for i in range(20)]
+# random_states = [np.random.randint(1000) for i in range(20)]
+random_states = [42]
 
 best_f1_score = -1
 best_model = None
@@ -111,15 +112,21 @@ for i in random_states:
     rfecv = RFECV(estimator=model, cv=cv, scoring='f1_weighted', n_jobs=-1)
     fit = rfecv.fit(X, y)
 
-    results = open('results_' + str(i) + '.txt', 'w')
-    results.write('Optimal number of features: %d' % fit.n_features_)
-    results.write('\n')
+    # results = open('results_' + str(i) + '.txt', 'w')
+    # results.write('Optimal number of features: %d' % fit.n_features_)
+    # results.write('\n')
     # results.write('Selected features: %s' % fit.support_)
     # results.write('\n')
 
     mask = fit.support_
 
     X_new = X.loc[:, mask]
+
+    # write the X_new to a csv file
+    X_new.to_csv('X_new_' + str(i) + '.csv', index=False)
+
+    break
+
     # write the selected feature names to results
     selected_features.append(X.columns[fit.support_])
     # selected_features = X.columns[fit.support_]
@@ -205,6 +212,7 @@ for i in random_states:
 
     results.close()
 
+exit()
 joblib.dump(best_model, 'best_model_lr.pkl')
 
 outfile = open('results.txt', 'w')

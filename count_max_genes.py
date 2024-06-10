@@ -31,6 +31,6 @@ with open(num_class + '/' + folder + '/results/max_genes.txt', 'w') as f:
     for gene, count in sorted_genes:
         # print the genes and their count, except the genes with nan values
         if gene == gene:
-            f.write(gene + '\t' + str(count) + '\n')
+            f.write(str(gene) + '\t' + str(count) + '\n')
 
 print('Done!')

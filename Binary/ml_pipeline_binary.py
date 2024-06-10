@@ -101,7 +101,7 @@ importance = pd.DataFrame(importance, index=X.columns, columns=["Importance"])
 importance = importance.sort_values(by=["Importance"], ascending=False)
 importance = importance.head(int(X.shape[1]*0.1))
 
-# get the top 200 features
+# get the top 10% features
 X = X[importance.index]
 
 np.random.seed(42)
@@ -111,9 +111,10 @@ best_f1_score = -1
 best_model = None
 
 for i in random_states:
-    cv = StratifiedKFold(5, shuffle=True, random_state=i)
+    cv = StratifiedKFold(10, shuffle=True, random_state=i)
     # feature extraction
     model = LogisticRegression()
+    
     rfecv = RFECV(estimator=model, cv=cv, scoring='f1', n_jobs=-1)
     fit = rfecv.fit(X, y)
 
