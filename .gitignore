@@ -3,5 +3,5 @@
 *.jpeg
 *.png
 *.eps
-../shap
-../EA
+/../shap
+/../EA
